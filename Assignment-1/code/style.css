@@ -1,2 +1,66 @@
+#div1,
+#div2 {
+  background-color: rgb(221, 221, 43);
+  width: 46%;
+  height: 30vh;
+  display: inline-block;
 
-/* hmmm/
+  margin: 2%;
+}
+
+#div3 {
+  display: block;
+  background-color: rgb(212, 43, 148);
+  height: 30vh;
+  width: 96%;
+  margin: 2%;
+}
+#div4,
+#div5,
+#div6 {
+  height: 30vh;
+  width: 29%;
+  margin-top: 1.5%;
+  display: inline-block;
+  margin: 2%;
+  background-color: rgb(89, 89, 218);
+}
+
+/* all media queries for 768px screen*/
+@media screen and (max-width: 768px) {
+  #div1,
+  #div2 {
+    background-color: rgb(221, 221, 43);
+
+    width: 46%;
+    height: 30vh;
+    display: inline-block;
+    margin: 2%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #div4,
+  #div5,
+  #div6 {
+    display: block;
+    height: 15vh;
+    width: 96%;
+    margin-top: 1.5%;
+    display: inline-block;
+    margin: 2%;
+    background-color: rgb(89, 89, 218);
+  }
+}
+/* all media queries for 320px screen*/
+@media screen and (max-width: 320px) {
+  #div1,
+  #div2 {
+    background-color: rgb(221, 221, 43);
+
+    width: 96%;
+    height: 30vh;
+    display: inline-block;
+    margin: 2%;
+  }
+}
+/*add a commit comand and somethings/*

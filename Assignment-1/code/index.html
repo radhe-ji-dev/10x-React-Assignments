@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width">
-<title>Designing Web App using HTML/CSS/REACT</title>
-<link rel="stylesheet" href="style.css" />
-<script src="https://unpkg.com/react@17/umd/react.development.js"></script>
-<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
-<!-- Don't use this in production: -->
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-</head>
-<body>
-    <div id="root"></div>
-    <script type="text/babel">
-//React Code here
- ReactDOM.render(<div></div>,document.getElementById('root'));
 
-</script>
-<!--
-     Note: this page is a great way to try React but it's not suitable for production.
-     It slowly compiles JSX with Babel in the browser and uses a large development build of React.
-     Read this section for a production-ready setup with JSX:
-     https://reactjs.org/docs/add-react-to-a-website.html#add-jsx-to-a-project
-     In a larger project, you can use an integrated toolchain that includes JSX instead:
-     https://reactjs.org/docs/create-a-new-react-app.html
-     You can also use React without JSX, in which case you can remove Babel:
-     https://reactjs.org/docs/react-without-jsx.html
-   -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width">
+  <title>Designing Web App using HTML/CSS/REACT</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <!-- Don't use this in production: -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    //React Code here
+    ReactDOM.render(<div></div>, document.getElementById('root'));
+
+
+    const alldivs =
+      React.createElement('div', {},
+        React.createElement('div', { id: "div1" }, 'this is my 1 div'),
+        React.createElement('div', { id: "div2" }, 'this is my 2 div'),
+        React.createElement('div', { id: "div3" }, 'this is my 3 div'),
+        React.createElement('div', { id: "div4" }, 'this is my 4 div'),
+        React.createElement('div', { id: "div5" }, 'this is my 5 div'),
+        React.createElement('div', { id: "div6" }, 'this is my 6 div'),
+
+      );
+
+    ReactDOM.render(
+      alldivs,
+      document.getElementById('root')
+    );
+
+    /* Note: this page is a great way to try React but it's not suitable for production.
+                                                                                                                        It slowly compiles JSX with Babel in the browser and uses a large development build of React.
+                                                                                                                        Read this section for a production - ready setup with JSX:
+                                                                                                                        https://reactjs.org/docs/add-react-to-a-website.html#add-jsx-to-a-project
+                                                                                                                        In a larger project, you can use an integrated toolchain that includes JSX instead:
+                                                                                                                        https://reactjs.org/docs/create-a-new-react-app.html
+                                                                                                                        You can also use React without JSX, in which case you can remove Babel:
+                                                                                                                        https://reactjs.org/docs/react-without-jsx.html-->*/
+  </script>
 </body>
+
 </html>

@@ -1,0 +1,28 @@
+{
+    "user": [
+        {
+            "name": "Siva",
+            "location": "Bengaluru",
+            "likes": "64 likes",
+            "description": "This is the fastest Bike",
+            "PostImage": "https://st2.depositphotos.com/1154952/6190/i/600/depositphotos_61907621-stock-photo-young-man-riding-big-bike.jpg",
+            "date": "06 Jan 2021"
+        },
+        {
+            "name": "Neeraj",
+            "location": "Pune",
+            "likes": "30 likes",
+            "description": "Sample Description",
+            "PostImage": "https://image.shutterstock.com/image-photo/gun-ammunition-on-wooden-background-260nw-644244382.jpg",
+            "date": "16 March 2021"
+        },
+        {
+            "name": "Rahul",
+            "location": "Hyderabad",
+            "likes": "300 likes",
+            "description": "Sample Description for Post",
+            "PostImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYFFYey3df1ggZ_tHcNQm_HPIOCljrOeMLbQ&usqp=CAU",
+            "date": "26 May 2021"
+        }
+    ]
+}

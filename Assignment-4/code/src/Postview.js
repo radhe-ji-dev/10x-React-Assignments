@@ -1,8 +1,8 @@
 import React from "react";
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Postview.css";
-import bike from "./images/bike.jpg";
-import aircraft from "./images/aircraft.jpg";
+import bike from "./images/aeroplane-.jpg";
+import aircraft from "./images/aeroplane-.jpg";
 
 const Postview = () => {
   const [posts, setPost] = useState([]);
@@ -65,3 +65,4 @@ const Postview = () => {
     </div>
   );
 };
+export default Postview;

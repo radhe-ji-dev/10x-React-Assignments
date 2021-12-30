@@ -1,0 +1,62 @@
+.insta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  float: right;
+  height: 40px;
+}
+.site-container h1 {
+  padding-left: 10px;
+  text-align: left;
+}
+.post {
+  margin-left: 350px;
+  height: 410px;
+  width: 600px;
+  border: 1px solid gray;
+
+  margin-top: 20px;
+}
+.post .box1 {
+  width: 580px;
+  height: 50px;
+  padding: 10px 10px 10px 10px;
+}
+.post .box2 {
+  width: 400px;
+  height: 250px;
+}
+
+.post .imog .imog1 {
+  height: 5px;
+  width: 5px;
+}
+.post .imog {
+  width: 600px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.post .box3 {
+  width: 600px;
+  height: 50px;
+}
+
+.post .box3 .box31 {
+  float: right;
+  color: black;
+  padding: 10px 10px 10px 10px;
+}
+.post .box3 .box32 {
+  float: left;
+  color: black;
+  padding: 10px 10px 10px 10px;
+}
+.box2 .pic {
+  width: 600px;
+  height: 250px;
+}

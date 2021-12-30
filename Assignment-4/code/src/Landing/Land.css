@@ -1,0 +1,25 @@
+.cont3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-right: 400px;
+  padding-left: 200px;
+}
+.cont3 .cont2 {
+  padding-top: 200px;
+}
+.cont2 h1 {
+  color: rgb(87, 87, 119);
+}
+.cont2 .btn {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  margin-left: 60px;
+}
+/* .box3{
+    color: brown;
+} */
